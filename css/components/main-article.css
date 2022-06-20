@@ -1,3 +1,15 @@
 .main-article {
   width: 57rem;
 }
+
+.main-article .main-title {
+  margin-bottom: 1.6rem;
+}
+
+.main-article.-secondary {
+  width: 37rem;
+}
+
+.main-article.-secondary .main-title {
+  margin-bottom: 0.8rem;
+}
