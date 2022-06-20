@@ -1,0 +1,6 @@
+.main-home {
+  position: relative;
+  background-color: var(--purple-bg);
+  height: 58.8rem;
+  width: 100vw;
+}
