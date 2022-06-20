@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="./css/components/main-header.css" />
     <link rel="stylesheet" href="./css/components/main-action.css" />
     <link rel="stylesheet" href="./css/components/search-bar.css" />
-    <link rel="stylesheet" href="./css/components/main-article.css" />
     <link rel="stylesheet" href="./css/components/main-title.css" />
     <link rel="stylesheet" href="./css//components/main-paragraph.css" />
     <link rel="stylesheet" href="./css/components/main-seeMore.css" />
@@ -25,7 +24,7 @@
     <main class="main-home">
       <div class="main-wrapper">
         <header class="main-header">
-          <img src="./assets/images/logo.svg" alt="" />
+          <img src="./assets/images/logo.svg" alt="Logo do Blog" class="logo" />
           <nav class="navbar">
             <ul class="list">
               <li>
@@ -51,12 +50,12 @@
               class="inputSearch"
             />
             <label for="search" class="iconSearch">
-              <img src="./assets/images/search.svg" alt="" class="search" />
+              <img src="./assets/images/search.svg" alt="Ícone de pesquisa" class="search" />
             </label>
           </form>
         </header>
         <div class="wrapper">
-          <article class="main-article">
+          <div class="text">
             <h1 class="main-title">
               Veja o guia definitivo para conquistar seus objetivos como DEV em
               2022
@@ -70,8 +69,12 @@
               Veja mais
               <img class="arrow" src="./assets/images/arrow-right.svg" alt="" />
             </a>
-          </article>
-          <article class="main-article -image"></article>
+          </div>
+          <img
+            src="./assets/images/featured-image.png"
+            alt="Foto exibindo linhas de código do monitor de um notebook"
+            class="featuredImage"
+          />
         </div>
       </div>
     </main>

@@ -2,6 +2,7 @@
   background-color: var(--purple-bg);
   height: 58.8rem;
   width: 100vw;
+  border-bottom: 0.6rem solid var(--green);
 }
 
 .main-home .wrapper {
@@ -9,4 +10,22 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.main-home .text {
+  width: 57rem;
+}
+
+.main-home .main-paragraph {
+  margin-top: 1.6rem;
+}
+
+.main-home .main-seeMore {
+  margin-top: 2.4rem;
+}
+
+.main-home .featuredImage {
+  width: 57rem;
+  height: 34.6rem;
+  object-fit: cover;
 }
