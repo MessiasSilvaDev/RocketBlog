@@ -4,3 +4,9 @@
   line-height: 150%;
   color: var(--light-purple);
 }
+
+.main-paragraph.-post {
+  width: 100%;
+  font-size: 1.6rem;
+  color: #000;
+}
