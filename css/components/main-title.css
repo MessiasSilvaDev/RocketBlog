@@ -5,3 +5,9 @@
   line-height: 150%;
   color: var(--button-bg);
 }
+
+.main-title.-post {
+  font-family: "Roboto";
+  font-size: 2.4rem;
+  color: var(--purple-bg);
+}
