@@ -1,0 +1,9 @@
+.main-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100vw;
+    padding: 6.4rem 13.5rem 0;
+    background-color: #000;
+}
