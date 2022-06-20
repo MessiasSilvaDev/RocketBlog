@@ -1,0 +1,15 @@
+.main-seeMore {
+  width: 11.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 150%;
+  color: var(--button-bg);
+}
+
+.main-seeMore .arrow {
+  width: 2.4rem;
+  height: 2.4rem;
+}
