@@ -1,6 +1,11 @@
 .main-article {
-  margin-top: 6.4rem;
+  display: inline-block;
   width: 57rem;
+}
+
+.main-article.-image {
+  background: url(../../assets/images/featured-image.png) no-repeat center/cover;
+  height: 34.6rem;
 }
 
 .main-article .main-paragraph {

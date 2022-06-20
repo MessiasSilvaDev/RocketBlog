@@ -3,3 +3,10 @@
   height: 58.8rem;
   width: 100vw;
 }
+
+.main-home .wrapper {
+  margin-top: 6.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
