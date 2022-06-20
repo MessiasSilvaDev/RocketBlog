@@ -1,8 +1,5 @@
 .main-header {
   position: absolute;
-  top: 0;
-  left: 0;
   z-index: 1;
-  width: 100vw;
-  margin: 6.4rem 0rem;
+  width: calc(100% - 27rem);
 }
