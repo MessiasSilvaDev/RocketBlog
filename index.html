@@ -15,12 +15,14 @@
     <link rel="stylesheet" href="./css/components/main-header.css" />
     <link rel="stylesheet" href="./css/components/main-action.css" />
     <link rel="stylesheet" href="./css/components/search-bar.css" />
+    <link rel="stylesheet" href="./css/components/main-wrapper.css" />
     <link rel="stylesheet" href="./css/components/main-title.css" />
     <link rel="stylesheet" href="./css//components/main-paragraph.css" />
     <link rel="stylesheet" href="./css/components/main-seeMore.css" />
     <link rel="stylesheet" href="./css/components/main-article.css" />
     <link rel="stylesheet" href="./css/components/main-post.css" />
     <link rel="stylesheet" href="./css/components/main-postTitle.css" />
+    <link rel="stylesheet" href="./css/components/wrapper-sidePost.css" />
   </head>
   <body>
     <main class="main-section -home">
@@ -59,7 +61,7 @@
           </label>
         </form>
       </header>
-      <div class="wrapper">
+      <div class="main-wrapper">
         <div class="text">
           <h1 class="main-title">
             Veja o guia definitivo para conquistar seus objetivos como DEV em
@@ -83,45 +85,106 @@
       </div>
     </main>
     <section class="main-section -content">
-      <article class="main-article">
-        <figure class="main-post">
-          <img
-            class="post"
-            src="./assets/images/post-1.png"
-            alt="Imagem de um notebook exibindo no monitor linhas de código"
-          />
-          <figcaption class="main-postTitle">Janeiro 04, 2022</figcaption>
-        </figure>
-        <h2 class="main-title -post">Começando no ReactJS em 2022</h2>
-        <p class="main-paragraph -post">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu
-          in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae, sed
-          tristique nibh nibh eu in aliquet ut adipiscing neque. Sed volutpat
-          aenean sit vitae, sed tristique. Sed volutpat aenean.
-        </p>
-      </article>
-      <article class="main-article">
-        <p class="postTitle">Janeiro 04, 2022</p>
-        <h2 class="main-title -post">
-          Conheça as principais técnicas para conseguir uma vaga internacional
-          em programação
-        </h2>
-        <p class="main-paragraph -post">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu
-          in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae, sed
-          tristique.
-        </p>
-      </article>
-      <article class="main-article">
-        <p class="postTitle">Janeiro 04, 2022</p>
-        <h2 class="main-title -post">
-          Veja a evolução do Front-end na prática
-        </h2>
-        <p class="main-paragraph -post">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu
-          in aliquet ut adipiscing neque.
-        </p>
-      </article>
+      <div class="main-wrapper">
+        <article class="main-article">
+          <figure class="main-post">
+            <img
+              class="main-postPhoto"
+              src="./assets/images/post-1.png"
+              alt="Imagem de um notebook em cima de uma mesa exibindo no monitor linhas de código"
+            />
+            <figcaption class="main-postTitle">Janeiro 04, 2022</figcaption>
+          </figure>
+          <h2 class="main-title -post">Começando no ReactJS em 2022</h2>
+          <p class="main-paragraph -post">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+            eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+            sed tristique nibh nibh eu in aliquet ut adipiscing neque. Sed
+            volutpat aenean sit vitae, sed tristique. Sed volutpat aenean.
+          </p>
+        </article>
+        <div class="wrapper-sidePost">
+          <article class="main-article">
+            <p class="main-postTitle">Janeiro 04, 2022</p>
+            <h2 class="main-title -post">
+              Conheça as principais técnicas para conseguir uma vaga
+              internacional em programação
+            </h2>
+            <p class="main-paragraph -post">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+              eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+              sed tristique.
+            </p>
+          </article>
+          <div class="line"></div>
+          <article class="main-article">
+            <p class="main-postTitle">Janeiro 04, 2022</p>
+            <h2 class="main-title -post">
+              Veja a evolução do Front-end na prática
+            </h2>
+            <p class="main-paragraph -post">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+              eu in aliquet ut adipiscing neque.
+            </p>
+          </article>
+        </div>
+      </div>
+      <div class="main-wrapper -gap">
+        <article class="main-article -secondary">
+          <figure class="main-post -secondary">
+            <img
+              class="main-postPhoto"
+              src="./assets/images/post-2.png"
+              alt="Imagem de um notebook exibindo no monitor linhas de código"
+            />
+            <figcaption class="main-postTitle">Janeiro 04, 2022</figcaption>
+          </figure>
+          <h2 class="main-title -post">
+            10 dicas para conseguir a vaga desejada
+          </h2>
+          <p class="main-paragraph -post">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+            eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+            sed tristique.
+          </p>
+        </article>
+        <article class="main-article -secondary">
+          <figure class="main-post -secondary">
+            <img
+              class="main-postPhoto"
+              src="./assets/images/post-3.png"
+              alt="Imagem de um notebook exibindo no monitor linhas de código"
+            />
+            <figcaption class="main-postTitle">Janeiro 04, 2022</figcaption>
+          </figure>
+          <h2 class="main-title -post">
+            Deixe seu código mais semântico com essas dicas
+          </h2>
+          <p class="main-paragraph -post">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+            eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+            sed tristique.
+          </p>
+        </article>
+        <article class="main-article -secondary">
+          <figure class="main-post -secondary">
+            <img
+              class="main-postPhoto"
+              src="./assets/images/post-4.png"
+              alt="Uma mão segurando um celular horizontalmente"
+            />
+            <figcaption class="main-postTitle">Janeiro 04, 2022</figcaption>
+          </figure>
+          <h2 class="main-title -post">
+            Deixe seu código mais semântico com essas dicas
+          </h2>
+          <p class="main-paragraph -post">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+            eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+            sed tristique.
+          </p>
+        </article>
+      </div>
     </section>
   </body>
 </html>
