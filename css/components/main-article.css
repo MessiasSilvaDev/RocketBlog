@@ -1,4 +1,8 @@
 .main-article {
-    margin-top: 6.4rem;
-    width: 57rem;
+  margin-top: 6.4rem;
+  width: 57rem;
+}
+
+.main-article .main-paragraph {
+  margin-top: 1.6rem;
 }

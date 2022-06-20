@@ -1,0 +1,6 @@
+.main-paragraph {
+  width: calc(100% - 10rem);
+  font-size: 1.8rem;
+  line-height: 150%;
+  color: var(--light-purple);
+}
