@@ -1,5 +1,11 @@
 .main-header {
-  position: absolute;
-  z-index: 1;
-  width: calc(100% - 27rem);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-header .list {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
 }
