@@ -21,9 +21,15 @@
   padding: 1rem 2.3rem;
   background-color: var(--button-bg);
   border-radius: 0rem 0.4rem 0.4rem 0rem;
+  cursor: pointer;
+  transition: 0.2s all linear;
 }
 
 .search-bar .search {
   height: 2.4rem;
   width: 2.4rem;
+}
+
+.search-bar .iconSearch:hover .search {
+  transform: scale(1.1);
 }

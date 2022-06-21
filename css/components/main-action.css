@@ -3,4 +3,10 @@
   font-size: 1.8rem;
   line-height: 2.1rem;
   color: var(--white);
+  transition: 0.2s all linear;
+}
+
+.main-action:hover {
+  padding-left: 0.3rem;
+  border-left: 0.2rem solid var(--green);
 }
